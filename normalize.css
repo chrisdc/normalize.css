@@ -136,6 +136,18 @@ strong {
   font-weight: bold;
 }
 
+blockquote:before,
+blockquote:after,
+  q:before,
+  q:after {
+content: "";
+}
+
+blockquote,
+q {
+  quotes: "" "";
+}
+
 /**
  * Address styling not present in Safari and Chrome.
  */
